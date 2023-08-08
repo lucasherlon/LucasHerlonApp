@@ -39,8 +39,7 @@ class Technologies extends StatelessWidget {
                 margin: const EdgeInsets.only(top: 40.0),
                 child: ElevatedButton(
                     onPressed: (){
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => const Home()));
+                      Navigator.pop(context);
                     },
                     child: const Row(
                       mainAxisSize: MainAxisSize.min,
